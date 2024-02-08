@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Valentines Day Card</title>
   </head>
   <body>
@@ -14,12 +14,14 @@
       <div class="right">
         <h1 class="question">Will you be my valentine?</h1>
         <div class="btn">
-          <button id="yes" onclick="yesPress()">Yes</button>
-          <button id="no" onclick="noPress()">No</button>
+          <button id="yes" href="pages/yes.html">Yes</button>
+          <div class="no-btn">
+            <button id="no" onclick="noPress()">No</button>
+          </div>
         </div>
       </div>
     </div>
-    <script src="nobtn.js"></script>
-    <script src="yesbtn.js"></script>
+    <script src="js/nobtn.js"></script>
+    <script src="js/yesbtn.js"></script>
   </body>
 </html>
