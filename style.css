@@ -3,6 +3,11 @@
   padding: 0;
 } */
 
+body{
+  overflow: hidden;
+  height: 100%;
+}
+
 .container {
   height: 370px;
   display: flex;
