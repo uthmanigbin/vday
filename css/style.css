@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;600;700&display=swap");
+
 /* * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,7 @@ body {
 }
 
 .question {
+  font-family: 'Comfortaa', sans-serif;
   text-align: center;
 }
 
@@ -36,6 +39,7 @@ body {
   padding: 10px 25px;
   margin-right: 50px;
   cursor: pointer;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 30px;
 }
 
